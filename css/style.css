@@ -680,6 +680,38 @@ footer a {
   filter: unset;
 }
 
+.img-box-250 {
+	width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.img-box-250 img {
+    position: absolute;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px){
+	.content-block {
+		margin: 2em 2em;
+		line-height: 2em;
+	}
+
+	.img-box-250 {
+		width: unset;
+		height: unset;
+		position: unset;
+	}
+	
+	.img-box-250 img {
+		position: unset;
+		margin: unset;
+	}
+
+	blockquote {
+		text-align: center;
+	}
+}
 @-webkit-keyframes jump {
   0%{
 	-webkit-transform: translateY(0);
